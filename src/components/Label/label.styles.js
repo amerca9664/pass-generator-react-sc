@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FONT_SIZES } from "../../styles/fontSize";
 
-const StyledLabel = styled.label`
+const StyledLabel = styled.span`
     font-size: ${({$size}) => $size};
     letter-spacing: ${({$letterSpace}) => $letterSpace};
 

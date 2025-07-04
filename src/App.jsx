@@ -1,10 +1,11 @@
+import Content from './components/Content/Content';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<div>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
+			<Content></Content>
 		</div>
 	);
 };

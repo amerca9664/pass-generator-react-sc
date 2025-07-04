@@ -16,7 +16,7 @@ const FuncShowText = (valueLength, setShowTextValue) => {
 		const numerChartSelect = randomNum(stringOrder.length - 1, 0);
 		stringDisorder += stringOrder.charAt(numerChartSelect);
 	}
-	console.log(stringDisorder);
+	
 	setShowTextValue(stringDisorder);
 };
 

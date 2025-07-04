@@ -7,7 +7,9 @@ const DivRange = ({ step, min, max, valueLength, setValueLength }) => {
 	return (
 		<>
 			<BackgroundCont>
-				<Label size={FONT_SIZES.includeButtonsDesktop}>{min}</Label>
+				<Label letterSpace='normal' size={FONT_SIZES.includeButtonsDesktop}>
+					{min}
+				</Label>
 				<RangeButton
 					valueLength={valueLength}
 					setValueLength={setValueLength}

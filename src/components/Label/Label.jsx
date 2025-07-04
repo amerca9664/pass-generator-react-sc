@@ -1,7 +1,11 @@
 import { StyledLabel } from './label.styles';
 
-const Label = ({ size, children }) => {
-	return <StyledLabel $size={size}>{children}</StyledLabel>;
+const Label = ({ letterSpace, size, children }) => {
+	return (
+		<StyledLabel $letterSpace={letterSpace} $size={size}>
+			{children}
+		</StyledLabel>
+	);
 };
 
 export default Label;

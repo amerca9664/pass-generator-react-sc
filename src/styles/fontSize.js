@@ -6,5 +6,5 @@ export const FONT_SIZES = {
     valueLengthMobile: '1rem',
 
     showPassDesktop:'1.25rem',
-    showPassMobile:'1.25rem'
+    showPassMobile:'0.9rem'
 } 

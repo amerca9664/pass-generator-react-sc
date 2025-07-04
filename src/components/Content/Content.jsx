@@ -8,18 +8,22 @@ import Label from '../Label/Label';
 import ShowText from '../ShowText/ShowText';
 import { StyledDiv } from './content.styles';
 import { RANGE_CONFIG_BUTTON } from '../rangeButtonConfig';
+import { enableButton, FuncShowText } from '../funcions';
 
 const Content = () => {
 	const [valueLength, setValueLength] = useState(
 		RANGE_CONFIG_BUTTON.defaultVal
 	);
 
+	const [buttonState, setButtonState] = useState(true);
+
+	const [showTextValue, setShowTextValue] = useState('');
 	return (
 		<>
-			<ShowText></ShowText>
+			<ShowText>{showTextValue}</ShowText>
 
 			<StyledDiv>
-				<Label size={FONT_SIZES.includeButtonsDesktop}>
+				<Label letterSpace='4px' size={FONT_SIZES.includeButtonsDesktop}>
 					LENGTH: {valueLength}
 				</Label>
 			</StyledDiv>
@@ -30,23 +34,27 @@ const Content = () => {
 				min={RANGE_CONFIG_BUTTON.min}
 				max={RANGE_CONFIG_BUTTON.max}
 			></DivRange>
-			{[...INCLUDE_DATA].map(item => (
+			{INCLUDE_DATA.map(item => (
 				<DivInclude
 					key={item.id}
 					action={enableButton}
 					selector={item.selector}
+					setButtonState={setButtonState}
 				>
 					{item.title}
 				</DivInclude>
 			))}
 
-			<Button></Button>
+			<Button
+				valueLength={valueLength}
+				buttonState={buttonState}
+				action={FuncShowText}
+				setShowTextValue={setShowTextValue}
+			>
+				Generate Password
+			</Button>
 		</>
 	);
-};
-
-const enableButton = (event, selector) => {
-	console.log(selector + ' ' + event.target.checked);
 };
 
 export default Content;

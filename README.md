@@ -1,7 +1,7 @@
-# Título del proyecto
+# Pass Generator with styled components
 
 <p>
-    <img src="" alt="Imagen del proyecto">
+    <img src="https://raw.githubusercontent.com/amerca9664/pass-generator-react-styled-components/refs/heads/main/design/desktop-design.png" alt="Imagen del proyecto">
 </p>
 
 ## Vista en vivo
@@ -14,11 +14,11 @@
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Generador aleatorio de password con checkbox seleccionables.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Como funciona el useState y los eventos, de igual forma la manera en la que se puede gestionar eventos y useState entre componentes hijos.
 
 ## Tecnologías 🛠
 
@@ -36,14 +36,14 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 ## Capturas del proyecto
 
 <p>
-   <img src="" alt="Captura del proyecto">
-   <img src="" alt="Captura del proyecto">
-   <img width="200" src="" alt="Captura del proyecto">
+   <img src="https://raw.githubusercontent.com/amerca9664/pass-generator-react-styled-components/refs/heads/main/design/desktop-design.png" alt="Captura del proyecto">
+   <img src="https://raw.githubusercontent.com/amerca9664/pass-generator-react-styled-components/refs/heads/main/design/desktop-active.png" alt="Captura del proyecto">
+   <img width="200" src="https://raw.githubusercontent.com/amerca9664/pass-generator-react-styled-components/refs/heads/main/design/mobile-design.png" alt="Captura del proyecto">
 </p>
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**Erik L.**
 
 <ul>
     <li>
@@ -56,10 +56,6 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
         <a href="https://tu-dominio.com/">Porfolio web</a>
     </li>
 </ul>
-
-## Link del reto
-
-<a href="">Página de frontendmentor</a>
 
 ## Instalación
 
